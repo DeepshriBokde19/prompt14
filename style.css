@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: bisque;
+    font-family: cursive;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food{
+    /* height: 90vh;
+    /* width: 2vw;  */ 
+    width: 90vw;
+    height: 100vh;
+    background-color: orange;
+    /* background-color: orange; */
+    margin-top: 5vh;
+    display: flex;
+   
+}
+.left
+{
+    /* background-color: red; */
+    /* height: 90vh; */
+    width: 80vw;
+    margin-left: 2vw;
+    
+}
+.left .h1{
+   font-weight:900;
+   font-size: 3rem;
+   color: rgb(1, 1, 49);
+   
+}
+/* .left h4{
+    color: white;
+    font-weight: 600;
+    margin-top: 2vh;
+   
+} */
+.left p{
+ width: 20vw;
+ 
+}
+.left .img1 img{
+    height: 12vh;
+}
+.left .img3 img{
+    height: 20vh;
+    width: 86vw;
+    /* width: 33vw; */
+}
+
+.right
+{
+    /* background-color:pink; */
+    height: 20vh;
+    width: 5vw;
+    writing-mode: vertical-lr;
+    height: 300px;
+
+    
+}
+
+.right h2{
+    text-orientation: upright;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middle{
+    display: flex;
+}
+.middle img{
+    height: 10vh;
+    width: 10vw;
+}
+.middle h4{
+    color: white;
+    font-weight: 600;
+    margin-top: 2vh;
+    width: 30vw;
+    
+   
+}
+@media screen and (min-width: 480px) {
+    body {
+     flex-direction: column;
+    }
+    .food{
+        width: 45vw;
+        height: 80vh;
+    }
+    .left .img3 img{
+        width: 40vw;
+        height: 25vh;
+    }
+    .left{
+        width: auto;
+        
+    }
+  }
